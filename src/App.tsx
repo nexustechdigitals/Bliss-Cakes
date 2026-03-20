@@ -81,7 +81,7 @@ const cakes = [
   { id: 8, name: 'Velvet Anniversary Cake', category: 'anniversary', price: 749, image: '/images/cakes/cake-5.jpg', description: 'Deep red velvet heart cake wrapped in pink fondant roses', badge: null },
   // --- Photo (4) ---
   { id: 9, name: 'Custom Photo Cake', category: 'photo', price: 749, image: '/images/cakes/cake-3.jpg', description: 'Personalized edible photo print on a smooth cream base', badge: 'Custom' },
-  { id: 10, name: 'Memory Lane Cake', category: 'photo', price: 699, image: '/images/cakes/cake-9.jpg', description: 'Your favourite memory printed beautifully on vanilla sponge', badge: null },
+  { id: 10, name: 'Memory Cake', category: 'photo', price: 699, image: '/images/cakes/cake-9.jpg', description: 'Your favourite memory printed beautifully on vanilla sponge', badge: null },
   { id: 11, name: 'Collage Photo Cake', category: 'photo', price: 799, image: '/images/cakes/cake-10.jpg', description: 'Multiple photo grid print on a white fondant canvas', badge: 'Popular' },
   { id: 12, name: 'Surprise Theme Photo Cake', category: 'photo', price: 849, image: '/images/cakes/cake-11.jpg', description: 'Custom themed photo cake for a one-of-a-kind surprise gift', badge: 'New' },
   // --- Eggless (4) ---
