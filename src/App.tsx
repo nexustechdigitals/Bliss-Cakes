@@ -23,7 +23,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 
 // WhatsApp phone number
-const WA_NUMBER = "919423399577"
+const WA_NUMBER = "917498593746"
 
 // Generic WhatsApp deep-link (used for hero / navbar / gallery CTA)
 const WA_LINK = `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent("Hi Bliss Cake! I'd like to place a cake order. Please share more details!")}`
@@ -140,7 +140,7 @@ function App() {
     const text = waMessage.trim()
       ? encodeURIComponent(waMessage.trim())
       : encodeURIComponent("Hi Bliss Cake! 🎂 I'd like to place a cake order. Please share more details!")
-    window.open(`https://wa.me/919423399577?text=${text}`, '_blank')
+    window.open(`https://wa.me/917498593746?text=${text}`, '_blank')
   }
 
   // Auto-rotating carousel effect
@@ -327,7 +327,7 @@ function App() {
                     Order on WhatsApp
                   </Button>
                 </a>
-                <a href="tel:+919423399577" className="w-full sm:w-auto">
+                <a href="tel:+917498593746" className="w-full sm:w-auto">
                   <Button variant="outline" className="w-full sm:w-auto border-pink-500 text-pink-600 hover:bg-pink-50 rounded-full px-6 md:px-8 py-4 md:py-6 text-sm md:text-lg flex items-center justify-center sm:justify-start gap-2">
                     <Phone className="w-5 h-5" />
                     Call Now
@@ -773,7 +773,7 @@ function App() {
                   <MessageCircle className="w-6 h-6 text-white" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="font-bold text-gray-800 text-sm group-hover:text-green-600 transition-colors">+91 94233 99577</p>
+                  <p className="font-bold text-gray-800 text-sm group-hover:text-green-600 transition-colors">+91 7498593746</p>
                   <p className="text-gray-500 text-xs">Chat with us on WhatsApp • Order anytime</p>
                 </div>
                 <div className="w-8 h-8 rounded-full bg-green-50 group-hover:bg-green-500 flex items-center justify-center transition-all flex-shrink-0">
@@ -825,7 +825,7 @@ function App() {
                   <MessageCircle className="w-7 h-7 text-white" />
                 </div>
                 <div className="flex-1 min-w-0">
-                  <p className="font-bold text-gray-800 text-lg group-hover:text-green-600 transition-colors truncate">+91 94233 99577</p>
+                  <p className="font-bold text-gray-800 text-lg group-hover:text-green-600 transition-colors truncate">+91 7498593746</p>
                   <p className="text-gray-500 text-sm">Chat with us on WhatsApp • Order anytime</p>
                 </div>
                 <div className="w-9 h-9 rounded-full bg-green-50 group-hover:bg-green-500 flex items-center justify-center transition-all flex-shrink-0">
@@ -1037,7 +1037,7 @@ function App() {
             </div>
             {/* Quick contact links */}
             <div className="flex justify-center gap-6 text-gray-400 text-sm mb-6">
-              <a href="tel:+919423399577" className="flex items-center gap-1.5 hover:text-pink-400 transition-colors">
+              <a href="tel:+917498593746" className="flex items-center gap-1.5 hover:text-pink-400 transition-colors">
                 <Phone className="w-4 h-4" />
                 <span>Call Us</span>
               </a>
@@ -1100,13 +1100,13 @@ function App() {
                 </a>
               </div>
               <div className="space-y-2 text-gray-400">
-                <a href="tel:+919423399577" className="flex items-center gap-2 hover:text-pink-400 transition-colors">
+                <a href="tel:+917498593746" className="flex items-center gap-2 hover:text-pink-400 transition-colors">
                   <Phone className="w-4 h-4 flex-shrink-0" />
-                  <span>+91 94233 99577</span>
+                  <span>+91 74985 93746</span>
                 </a>
                 <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-green-400 transition-colors">
                   <MessageCircle className="w-4 h-4 flex-shrink-0" />
-                  <span>WhatsApp: +91 94233 99577</span>
+                  <span>WhatsApp: +91 74985 93746</span>
                 </a>
               </div>
             </div>
